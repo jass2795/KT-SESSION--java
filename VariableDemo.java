@@ -2,10 +2,11 @@ package com.ibm;
 
 public class VariableDemo
 {
-    int  count=0; //will get memory when instance is created
-     //static int count=0; //will get memory only once and it retains its value
+    //int  count=0; //will get memory when instance is created
+     static int count=0; //will get memory only once and it retains its value
 
     public void increment()
+
     {
         count++;
     }
